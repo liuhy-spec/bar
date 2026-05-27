@@ -1,0 +1,11 @@
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="float_menu_bg">#CC1a1a2e</color>
+    <color name="float_menu_pressed">#DD2d2d44</color>
+    <color name="music_controller_bg">#CC0d0d1a</color>
+</resources>

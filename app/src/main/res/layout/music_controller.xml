@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/music_controller_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="4dp"
+    android:background="@drawable/float_menu_bg">
+
+    <ImageView
+        android:id="@+id/iv_album_art"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/tv_artist"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:textColor="#99ffffff"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="4dp">
+
+        <ImageButton
+            android:id="@+id/btn_prev"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_skip_previous"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:id="@+id/btn_play_pause"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_pause"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_skip_next"
+            android:scaleType="centerInside"/>
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="56dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="4dp"
+        android:progress="0"
+        android:max="100"/>
+
+</LinearLayout>

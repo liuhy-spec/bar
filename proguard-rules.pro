@@ -1,0 +1,2 @@
+-keep class com.example.custommenu.** { *; }
+-keep class android.support.v4.media.session.** { *; }

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CustomMenu</string>
+    <string name="add_menu">添加菜单栏</string>
+    <string name="manage_menus">管理菜单栏</string>
+    <string name="select_apps">选择应用</string>
+    <string name="config_menu">配置</string>
+    <string name="menu_settings">菜单设置</string>
+    <string name="width">宽度</string>
+    <string name="height">高度</string>
+    <string name="position_x">位置X</string>
+    <string name="position_y">位置Y</string>
+    <string name="always_on_top">置顶显示</string>
+    <string name="remove_menu">删除菜单栏</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="permission_needed">需要悬浮窗权限</string>
+    <string name="grant_permission">去授权</string>
+    <string name="music_playing">音乐播放中</string>
+    <string name="no_music">暂无音乐</string>
+</resources>
